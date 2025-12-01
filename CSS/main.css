@@ -419,7 +419,10 @@ body{
   line-height: 1.1;
   margin: 0;
 }
-
+.hero-title {
+  white-space: nowrap;              /* force single line */
+  font-size: clamp(1.6rem, 2.4vw, 3rem);
+}
 .hero-title span {
   color: var(--brand-2);
 }
@@ -633,3 +636,4 @@ section,
 #team .container {
   padding: 0 0.5rem;
 }
+
